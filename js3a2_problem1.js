@@ -1,4 +1,4 @@
-const numbers = [1,2,3,4];
+const numbers = [1, 2, 3, 4];
 
 function sumOfNumber(numbers) {
     let sum = 0;
