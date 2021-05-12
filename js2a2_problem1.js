@@ -1,13 +1,13 @@
-let word = "abacd";
+let word = "abcbd";
 
 function countA(word) {
-    countCharacterA = 0;
+    countCharacterAandB = 0;
     for(let index=0; index<word.length; index++) {
-        if(word.charAt(index) == 'a') {
-            countCharacterA++;
+        if(word.charAt(index) == 'a' || word.charAt(index) == 'b') {
+            countCharacterAandB++;
         }
     }
-    return countCharacterA;
+    return countCharacterAandB;
 }
 
 console.log(countA(word));
